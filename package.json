@@ -1,0 +1,30 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node-app",
+  "main": "server.js",
+  "publishConfig": {
+    "registry": "http://18.130.41.40:8081/repository/nodejs-repo/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulbhange/new-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulbhange/new-node/issues"
+  },
+  "homepage": "https://github.com/rahulbhange/new-node#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sonarqube-scanner": "^2.7.0"
+  }
+}
